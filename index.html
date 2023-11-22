@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio from Diogo Oliveira - wannabe web developer">
+    <meta name="keywords" content="portfolio, developer, junior web developer, web developer, Diogo, Oliveira, Diogo Oliveira, design, graphics, frontend, respondive, developer, junior">
+    <link rel="canonical" href="https://www.diogooliveira-developer.pt">
+    <meta name="robots" content="index, follow">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="index.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/386d6690c8.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="UTF-8" src="//cdn.cookie-script.com/s/494bddd4da906c9c856a851b377062ab.js"></script>
+    <script src="app.js"></script>
+    <title>Diogo Oliveira | Frontend Developer</title>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="https://diogooliveira-developer.pt" onclick="closemenu()"><img src="images/logo.webp" class="logo" alt="logo"></a>
+                <ul id="sidemenu">
+                    <li><a href="#about" class="scrollLink" onclick="closemenu()">About</a></li>
+                    <!-- <li><a href="#services" class="scrollLink" onclick="closemenu()">Work</a></li> -->
+                    <li><a href="#portfolio" class="scrollLink" onclick="closemenu()">Portfolio</a></li>
+                    <li><a href="#contact" class="scrollLink" onclick="closemenu()">Contact</a></li>
+                    <li><a href="index.html" onclick="closemenu()"><img src="/images/GB.webp" alt="flag"></a>
+                        <a href="index_pt.html" onclick="closemenu()"><img src="/images/PT.webp" alt="flag"></a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+            
+    <div id="icons">
+        <div class="icons-flex">
+            <div class="header-text">
+                <h1>Junior <span>Front-End</span><br>Developer 🙋‍♂️</h1>
+                <p>Hi, I'm Diogo Oliveira. A passionate 
+                    Junior Front-End Developer<br> based in Portugal 📍</p>
+                <div class="blank"></div>
+                <div class="blank"></div>
+                <div class="icons-font-container">
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/diogo-oliveira-309006189/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/olivassssss" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                    </div>
+                    <br>
+                    <div class="icons-font">
+                        <a><i class="fa-brands fa-html5"></i></a>
+                        <a><i class="fa-brands fa-css3-alt"></i></a>
+                        <a><i class="fa-brands fa-square-js" alt="ES6 ES7"></i></a>
+                        <a><i class="fa-brands fa-php" alt="PHP"></i></a>
+                        <a><i class="fa-brands fa-bootstrap" alt="BootStrap"></i></a>
+                        <a><i class="fa-brands fa-react" alt="React"></i></a>
+                        <a><i class="fa-solid fa-database" alt="MySQL/MongoDB/Express"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div id="profile-image">
+                <img src="images/user.webp" alt="profile_pic">
+            </div>
+        </div>
+    </div>
+
+ <!-- ABOUT SESSION -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Greetings, I'm Diogo Oliveira, a dynamic 27-year-old with a passion for making the digital world come alive.
+                        While I hold a degree in Patrimonial Rehabilitation, my journey has taken a thrilling turn in recent times,
+                        as I've transitioned into the exciting realm of Front-End Development. This shift wasn't just a career change; 
+                        it was a quest to find my true calling and happiness.<br>
+                        Over the past year, I've wholeheartedly dedicated myself to mastering the art of programming. 
+                        I've proven to be a quick learner, and my unwavering commitment is the driving force behind my transformation. 
+                        I firmly believe that this transition will lead to a more fulfilling and purposeful life, 
+                        one where my skills can truly shine.<br><br>
+                        
+                        You can explore my portfolio, code repositories on GitHub, and my CV on the contact page to get a better sense of my work and journey.<br>
+                        I'm constantly immersed in new projects and learning the latest frameworks, ensuring my skills stay razor-sharp and up to date.<br><br>
+        
+                        <span>For any inquiries or collaborations, please don't hesitate to get in touch with me. Let's connect and create something remarkable together! 😄</span></p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('other-projects')">Other Projects/courses</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-End</span><br>HTML5, CSS3, Javascript and React.js</li>
+                                <li><span>Back-End</span><br>PHP and MySQL</li>
+                                <li><span>App Development</span><br>C#, C++, Java and Lua</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>University</span><br>Graduation in Heritage Rehabilitation</li>
+                                <li><span>IEFP</span><br>Level 4 - Full Stack Web Development Course</li>
+                                <li><span>Google Professional Certificate</span><br>UX Design</li>
+                                <li><span>Udemy</span><br>React.Js, Next.Js, Strapi, and alot more frameworks</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="other-projects">
+                            <ul>
+                                <li><span>The Odin Project</span><br>0 to Full Stack Web Developer</li>
+                                <li><span>Udemy</span><br>React.js, C#, Angular, python</li>
+                                <li><span>FiveM Development</span><br>Scripts on Lua</li>
+                            </ul>
+                        </div>
+                </div>
+                <div class="about-col-1">
+                    <img src="images/aboutme.webp" alt="about_me">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------ portfolio ------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <div class="img-left">
+                        <img src="images/work1.webp" alt="work">
+                    </div>
+                    <div class="layer">
+                        <h3>Minesweeper in JS</h3>
+                        <div class="layer-text">
+                            <div class="layer-text-p">
+                                <p>Creating my first JavaScript Minesweeper game was a rewarding journey into programming. I set up the game board, delved into core 
+                                    logic like mine placement and user interactions. <br>
+                                    The UI was crucial, with HTML, CSS, and JavaScript for features like 
+                                    cell highlighting and flagging. Event handling added dynamism, 
+                                    and testing ensured a bug-free game. <br>This project reinforced my 
+                                    passion for programming, inspiring me to tackle more complex challenges. 
+                                    For aspiring developers, Minesweeper in JavaScript was a great starting point.</p>
+                            </div>
+                            <br>
+                            <div class="layer-text-link">
+                                <a href="https://olivassssss.github.io/minesweeper/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>   
+                                <a href="https://github.com/olivassssss/minesweeper" target="_blank"><i class="fa-brands fa-github"></i></a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <div class="layer">
+                        <h3>First Website</h3>
+                        <div class="layer-text">
+                            <div class="layer-text-p">
+                                <p>Creating my first recipe website with HTML, CSS, and JavaScript was an enjoyable 
+                                    journey into web development. 
+                                    I designed pages, styled them, and added interactivity, 
+                                    including scale transition and buttons to return to the main page.<br>
+                                    Testing and debugging were essential, reinforcing my coding skills.<br>
+                                    This project merged my love for cooking with web development, 
+                                    sparking my passion for future projects.</p>
+                            </div>
+                            <br>
+                            <div class="layer-text-link">
+                                <a href="https://olivassssss.github.io/odin-recipes/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                                <a href="https://github.com/olivassssss/odin-recipes" target="_blank"><i class="fa-brands fa-github"></i></a>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-right">
+                        <img src="images/work2.webp" alt="work">
+                    </div>
+                </div>
+
+                <div class="work">
+                    <div class="img-left">
+                        <img src="images/work3.webp" alt="work">
+                    </div>
+                    <div class="layer">
+                        <h3>My first Portfolio</h3>
+                        <div class="layer-text">
+                            <div class="layer-text-p">
+                                <p>Building my first portfolio was an exciting step in showcasing 
+                                    my work and skills. Using HTML, CSS, and JavaScript, 
+                                    I created a user-friendly platform that reflects my 
+                                    passion and capabilities. This project provided invaluable 
+                                    web development experience and set the stage for a promising 
+                                    journey in sharing my achievements and projects.<br>
+                                    As I'm learning more and getting to know more about the languages 
+                                    I decided to improve this work and do this new portfolio you are in.
+                                </p>
+                            </div>
+                            <br>
+                            <div class="layer-text-link">
+                                <a href="https://olivassssss.github.io/Portfolio/#portfolio" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                                <a href="https://github.com/olivassssss/Portfolio" target="_blank"><i class="fa-brands fa-github"></i></a>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <div class="layer">
+                        <h3>More to see and to come...</h3>
+                        <div class="layer-text">
+                            <div class="layer-text-p">
+                                <p>In addition to my portfolio, I'm currently developing a barber website 
+                                    and a car sales website. <br>
+                                    These projects, crafted with HTML, CSS, and JavaScript, 
+                                    showcase my versatility as a web developer. 
+                                    <br>My GitHub repository features a diverse array of other projects, 
+                                    ranging from interactive web apps to practical utilities, 
+                                    demonstrating my commitment to continuous learning and my 
+                                    passion for building digital solutions. <br>
+                                    These projects serve as a testament to my dedication to honing my 
+                                    skills and contributing to the world of web development.</p>
+                            </div>
+                            <br>
+                            <div class="layer-text-link">
+                                <!-- <a href="https://olivassssss.github.io/odin-recipes/" target="_blank"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a> -->
+                                <a href="https://github.com/olivassssss?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>   
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-right">
+                        <img src="images/work4.webp" alt="work">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------- contact ------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row-2">
+                <div class="contact-left">
+                    <h1 class="sub">Contact Me</h1>
+                    <h3 class="sub">Don't be shy, Hit me up with a message! 👇</h3>
+                    <p><a href="mailto:diogooliveira_96@hotmail.com"><i class="fa-solid fa-paper-plane"></i>diogooliveira_96@hotmail.com</a></p>
+                    <p><a href="https://wa.me/351912068464?text=Hello, How can I help you?" target="_blank"><i class="fa-solid fa-phone-flip"></i> +351 912 068 464</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/diogo-oliveira-309006189/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/olivassssss" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                    </div>
+                    <a href="attach/curriculo_Diogo_en.pdf" download class="btn btn2">Check my CV</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Diogo Oliveira. 2023</p>
+            <img src="images/logo-footer.webp" class="logo-footer" alt="logo">
+        </div>
+        <button class="scrollLink" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-sharp fa-solid fa-arrow-up"></i></button>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById('sidemenu');
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+
+<script>
+    $(document).ready(function() {
+        $("a.scrollLink").click(function(event) {
+            event.preventDefault();
+            $("html, body").animate({
+                scrollTop: $($(this).attr("href")).offset().top
+              }, 500);
+          });
+      });
+  </script>
+</body>
+</html>
